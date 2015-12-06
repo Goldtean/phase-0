@@ -34,3 +34,16 @@ remove file -rm
 
 gives help, but "man" is better -help
 # 1.4 Forking and Cloning
+If I were to write instructions for a new person, it would go something like this:
+
+1 - Create GitHub account
+
+2 - Go to the top right of your profile, and hit "New Repository"
+
+3 - You can fork a repository by finding it on GitHub and then hitting the fork button
+
+4 - Go on bash in the place you want to locally store the repository (pwd if you're not sure), then type "git clone ...", with the ... being the link form GitHub of your repository (or the one you forked)
+
+Forking a repository is good for things like an open source project, or if you want to snoop on other people's code. It could also be useful if you have a base of code that you want to use for multiple projects.
+
+I struggled with GitHub in that I wasn't sure how to use it when I first got it and it confused me. Learning the terminal commands makes it make sense. The other challenge I had was trying to do the bonus thing and add and remove a repository. I hope I did it the right way, but what I did was I cloned it to my local drive then I did this command "rm -rf p0-cli-exploration". rmdir does not work because it's not empty. rm -rf works because it recursively removes all it's contents. I don't know what that means, but I know it works and it makes me sound fancy so I wrote it in my notes and it came in handy!
