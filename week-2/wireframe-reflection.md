@@ -13,5 +13,5 @@ I didn't really understand why I was doing two wireframes and why they are diffe
 ##Which parts of the challenge did you enjoy and which parts did you find tedious?##
 I enjoyed pretty much all of it and I didn't think it was tedious. If I was forced to use Photoshop or Illustrator instead of doing "Sketch --> Code" then I would have found it tedious.
 
-![Alt text](imgs/wireframe-blog-index.jpg)
 ![Alt text](imgs/index-wireframe.jpg)
+![Alt text](imgs/wireframe-blog-index.jpg)
