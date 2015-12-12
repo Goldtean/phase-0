@@ -18,4 +18,4 @@ Design and user experience are different, although similar. Design is how everyt
 User experience design is designing the website around how your users want to use it instead of what you want to show them. Users should enjoy the site, it should be simple and easy to figure out. For example, you may want a user to answer some questions and perhaps give you their e-mail address, but if you throw too many questions at a new user they may abandon the site. This is valuable because the ultimate goal of business is to reduce friction to the consumer and provide things they want. The difficulty, however, is not in knowing what users know they want. It's knowing what users don't know they know they want.
 ##Which parts of the challenge did you find tedious?##
 All of the article reading was very tedious. A lot of information thrown at you at once.
-![Alt text](week-2/imgs/IMG_2229.JPG)
+![Alt text](imgs/IMG_2229.JPG)
