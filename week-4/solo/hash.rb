@@ -1,13 +1,13 @@
 # Define a Hash
 
-# I worked on this challenge [by myself, with: ].
+# I worked on this challenge by myself.
 
 
 # Your Solution Below
 
 # my_info is empty to start.  Edit this!
-my_info = {}
 
+my_info = {}
 
 my_info.store(:first_name, "Jeremy")
 my_info.store(:last_name, "Oltean")
