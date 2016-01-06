@@ -1,6 +1,6 @@
 # Numbers to Commas Solo Challenge
 
-# I spent 7 hours on this challenge. The final refactored solution is separate_comma. All three work.
+# I spent 12 hours on this challenge. The final refactored solution is separate_comma. All three work.
 
 # Complete each step below according to the challenge directions and
 # include it in this file. Also make sure everything that isn't code
@@ -156,12 +156,12 @@ p separate_comma(100)
 #  Refactor # 1
 #  I had an extremely difficult time refactoring and read ruby docs for a long time with no avail.
 #  I thought .gsub looked interesting, but I don't know how to substitute a group of numbers with
-#  themselves plus a comma and set the rules around that up.
-#  So I shortened names as much as possible. I took out the if statement inception since I could cut
+#  themselves plus a comma and set the rules around that up. So I shortened names as much as possible.
+#  I replaced number_of_commas to c and I took out the if statement inception since I could cut
 #  a lot of code by using just a final else. Other than that I couldn't figure anything out. 
 #  Refactor # 2
 #  Thinking it over, it could be possible to reverse the string and then add a comma every 3
-#  3 characters, removing the need for an if statement. I was having an extremely difficult time
+#  3 characters, removing the need for an if statement. I was having a very difficult time
 #  figuring out a rule for the proper amount of commas, then instead of using logic I just used chomp.
 
 # How did you initially iterate through the data structure?
