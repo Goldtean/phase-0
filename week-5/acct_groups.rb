@@ -1,5 +1,5 @@
 # Week 5 Accountability Groups Challenge
-# Done by myself, taking x hours to complere.
+# Done by myself, taking 6 hours to complere.
 
 # Pseudocode
 	# I know you guys love when you write out the whole process before getting started, but I kind of like
@@ -14,7 +14,7 @@
 	# I need to research splitting by new line, then I need to go over advanced methods of seperation.
 
 	# I found a way to get all of the first list lines and last lines into a hash as a key value pair. Next step
-	# is to get a new array from all the keys with value of student. Then I can get them into 5 person groups.
+	# is to get a new array from all the keys with value of student. Then I can get them into 4 person groups.
 
 list =
 "Adell Hanson-Kahn (Guide)
@@ -330,6 +330,8 @@ Lucas Willett
 Fiddler Crabs 2016
 Teacher"
 
+# Below, commented out, is my un-refactored code. Basically, I turn everyone into a hash and return
+# a group of 4 students using .each_slice.
 
 # splitlist = list.split(/\n/)
 
@@ -417,9 +419,6 @@ fid.student_hash
 fid.guide_hash
 fid.student_accountability_groups
 
-
-
-
 # What was the most interesting and most difficult part of this challenge?
 	# The most interesting and difficult part was organizing this in my head as a class. The most interesting was that
 	# getting the accountability groups was very easy. It's like the challenge says - how difficult do you want it to be?
@@ -433,5 +432,6 @@ fid.student_accountability_groups
 	# freedom to make changes and add things, like having each group have a guide in it or adding the one teacher to all groups.
 # What did you learn in the process of refactoring your initial solution? Did you learn any new Ruby methods?
 	# I actually ended up going through some of my own work to find the n += 1 syntax to make the groups more readable and build
-	# a better seperator. I want to do more formatting and build more things, but I need to finish all the other challenges so
-	# I am calling it a night. I did solidify the += and the .times operators in my head.
+	# a better separator. I want to do more formatting and build more things, but I need to finish all the other challenges so
+	# I am calling it a night. I did solidify the += and the .times operators in my head. Also, I'm satisfied with the output
+	# as it's much better than the un-refactored solution which just spat out an array of arrays.
