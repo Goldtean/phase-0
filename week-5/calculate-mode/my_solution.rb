@@ -64,18 +64,21 @@ p mode [1, 2, 1, "hello", "hello"]
 
 =begin
 Which data structure did you and your pair decide to implement and why?
-	We went with a hash. We both thought about it beforehand and both came up with the same idea for our
-	approach: get the array into a hash with the key as each element and the value as it's frequency.
+	We went with a hash. My pair and I both thought about it beforehand and both came up with the same idea for our
+	approach: get the array into a hash with the key as each element and the value as it's frequency. That way we could
+	easily compare the values and output the highest ones.
 Were you more successful breaking this problem down into implementable pseudocode than the last with a pair? 
-	Yes and no. I find we broke it down the same as with other pairs, we just seemed to have a much better time
-	executing. My pair got the first part of the challenge solved very quickly as the driver, and after that 
-	everything kind of fell into place.
+	I find we broke it down about the same as I did with other pairs, but we had a much better time
+	executing. My pair got the first part of the challenge solved very quickly as the driver, and after we got the
+	code working pretty quickly.
 What issues/successes did you run into when translating your pseudocode to code?
-	We just had the standard kind of issues - coding grammar, using puts on the last line of the method which
-	returned nil even though our answer was correct, etc.
+	I thought the first part was a huge success. My pair was able to get the incoming array into a hash with frequency
+	as the value on a first try. That kind of made the rest go pretty smooth.
+	We did have the standard kind of issues - coding grammar, using puts on the last line of the method which
+	returned nil even though our answer was correct, etc. 
 What methods did you use to iterate through the content? Did you find any good ones when you were refactoring?
 Were they difficult to implement?
 	We used the .each method, and it worked well. Refactoring was difficult because our solution, being about 14
-	lines, is not very long, so each line is important. There was no "low hanging fruit". I took out the
-	.each do and end.
+	lines, is not very long, so each line was important. There was no "low hanging fruit". I took out the
+	.each do and end out to cut down a couple of lines. Readability wise, I think it's pretty readable and makes sense.
 =end
