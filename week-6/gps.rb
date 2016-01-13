@@ -2,7 +2,7 @@
 # 1) Chris Bunkers
 # 2) Jeremy Oltean
 
-# We spent [#] hours on this challenge.
+# We spent 2 hours on this challenge.
 
 # Bakery Serving Size portion calculator.
 
