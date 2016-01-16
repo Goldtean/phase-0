@@ -18,10 +18,42 @@
 
 # Initial Solution
 
+# class GuessingGame
+#   def initialize(answer)
+#     @answer = answer
+#     @solved = false
+#     puts "I'm thinking of a number between 1 - #{@answer}"
+#   end
+
+#   def guess(ask)
+#   	@ask = ask
+#   	if  @answer < @ask
+#   		puts "You're too high!"
+#   		@solved = false
+#   		return :high
+#   	elsif @answer == @ask
+#   		puts "No fair, you cheated!"
+#   		@solved = true
+#   		return :correct
+#   	elsif @answer > @ask
+#   		puts "You're too low!"
+#   		@solved = false
+#   		return :low	
+#   	end
+#   end
+
+#   def solved?
+#   @solved
+#   end
+# end
+
+
+
+
+# Refactored Solution
 class GuessingGame
   def initialize(answer)
     @answer = answer
-    @solved = false
     puts "I'm thinking of a number between 1 - #{@answer}"
   end
 
@@ -29,21 +61,23 @@ class GuessingGame
   	@ask = ask
   	if  @answer < @ask
   		puts "You're too high!"
-  		@solved = false
   		return :high
   	elsif @answer == @ask
   		puts "No fair, you cheated!"
-  		@solved = true
+
   		return :correct
   	elsif @answer > @ask
   		puts "You're too low!"
-  		@solved = false
   		return :low	
   	end
   end
 
   def solved?
-  @solved
+  	unless @answer == @ask
+  		@solved = false
+  	else
+  		@solved = true
+	end
   end
 end
 
@@ -56,10 +90,9 @@ game.guess(25)
 puts game.solved?
 
 
-# Refactored Solution
-
-# I've read over my initial code and I don't have anything to take out. I could take out the many puts to make it shorter, but other
-# than that it's pretty lean in my opinion.
+# I initially read over my code and I didn't have anything to take out, but looking at it again, I found a way to shorten it
+# but only by one line. I refactored it to put automate solved all inside of def # solved?
+# I think it's a valid refactor because although it's not much shorter, it's slightly more readable.
 
 # Reflection
 
