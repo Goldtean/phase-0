@@ -22,7 +22,9 @@ class Profile
     @age
   end
 
- # the change_my_age= syntax might be confusing to see, it just allows us to set the value of the @age variable using = format instead of the standard argument format. Look at line 71 to see what I mean. The equals sign is just a part of the method name string, nothing special going on here.
+ # the change_my_age= syntax might be confusing to see, it just allows us to set the value of the @age variable 
+ # using = format instead of the standard argument format. Look at line 71 to see what I mean. The equals sign 
+ # is just a part of the method name string, nothing special going on here.
   def change_my_age=(new_age)
     @age = new_age
   end
@@ -49,7 +51,8 @@ end
 
 instance_of_profile = Profile.new
 
-# I have to use p here because what_is_age only returns the value of @number, it does not print anything to the console. The p modifier prints to the console whatever value is returned. Nifty!
+# I have to use p here because what_is_age only returns the value of @number, it does not print anything to the console.
+ # The p modifier prints to the console whatever value is returned. Nifty!
 puts "--- printing age -----"
 sleep 0.8 # sleep so the program takes a pause instead of just running through
 p instance_of_profile.what_is_age # here we expect age to be 27
