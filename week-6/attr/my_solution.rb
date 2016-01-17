@@ -49,7 +49,7 @@ greeter.greet
   # what_is_age was was replaced and no longer needed. In turn, methods that called on it instead just called
   # on age.
 # Is this code simpler than the last?
-  # The code is simpler, yet. Instead of having a method ask what age is, we can just call age.
+  # The code is simpler, yes. Instead of having a method ask what age is, we can just call age.
 
 # Release 3
 # What changed between the last release and this release?
