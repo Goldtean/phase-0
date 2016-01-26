@@ -51,6 +51,9 @@
 
 // Initial Code
 
+
+// PLEASE NOTE - THIS GAME HAS BEEN UPDATED AND IS AVAILABLE ONLINE.
+
 var answers = ["netflix", "grand theft auto", "metal gear solid", "call of duty"]
 var board = ["1", "2", "3", "4"]
 
@@ -75,7 +78,7 @@ var user_input = prompt("Steve Harvey: When Jeremy is on his Playstation, what a
 var check = array.includes(user_input);
 
 if (check == true) {
-	console.log("True be thy statement");
+	console.log("Steve Harvey: It's on the board!");
 	console.log("[X]".repeat(wrong_count));
 	var array_place = answers.indexOf(user_input);
 	board[array_place] = user_input;
@@ -99,7 +102,19 @@ else if (wrong_count == 3) {
 }
 
 play_fued(answers)
+
 // Refactored Code
+// Instead of refactoring I added this online as well as added features. I hope I can be forgiven! It is refactored, in a sense, in that
+// I completely re-wrote it so that it works online and took out useless fluff and anything that wasn't 100% necessary.
+// In addition, I added the following features in the one posted in my projects page (goldtean.github.io/projects/game.html)
+// 1) You can enter names upcase or downcase
+// 2) The board publishes names with first letters capitalized
+// 3) The game tells you how many tries you have left after every failed attempt
+// 4) HTML / CSS styling
+// I am still hoping to add the following: 1) the next best answer not answered, 2) multiple questions, 3) possibility of playing multiple
+// rounds and getting to a final round. The crazy thing is when I started with JavaScript I thought: ugh, this sucks, it's hard and I
+// don't know how to do anything. Now I wish I had more time to use it, because I can think of ways to do all the things I want to add
+// with my existing knowledge. Crazy stuff!
 
 // Reflection
 // What was the most difficult part of this challenge?
@@ -120,4 +135,6 @@ play_fued(answers)
 // refactor, but we'll see how I'm feeling.
 
 // How can you access and manipulate properties of objects?
-// Well in this case I used a while loop which basically ensured a maximum of 7 prompts to the user. 
+// You can access them by calling them much like in Ruby. For example, to access the index of the user input I set a variable equal to
+// the answers array at the index of user_input using indexOf. You can manipulate them by either creating a new variable of the data
+// or changing it straight up. For example, I took
