@@ -1,5 +1,5 @@
-<!--  8.4 Introduction to Database Schemas and SQL -->
-<!--
+8.4 Introduction to Database Schemas and SQL
+
 1. SELECT * FROM states;
 2. SELECT * FROM regions;
 3. SELECT state_name, population FROM states;
@@ -25,18 +25,3 @@ The primary key is a key that is the primary way to identify each element in a t
 How can you select information out of a SQL database? What are some general guidelines for that?
 I guess my advice would be to do the Learn SQL track on codecademy! In general, it goes SELECT thing_you_want_to_select FROM place_you_want_to_select_it_from WHERE thing_you_want > as_big_as_you_need_it_to_be;
 Semicolon goes at the end of every statement.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--->
