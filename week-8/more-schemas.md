@@ -1,10 +1,10 @@
 <!-- -->
 
-![Alt text](schema_companies.jpg)
+![Alt text](imgs/schema_companies.jpg)
 
 This relationship is one to one because typically (99.99% of the time) companies only have one CEO, and CEOs are CEO of only one company. Some obvious examples stand out that are different - like Steve Jobs, or Jack Dorsey, or Elon Musk, but usually this is not the case. Regardless, even when someone is the CEO of two companies, a company will only have one CEO. This isn't a perfect example, but I didn't want to copy states and capital cities, and the only one I could come up with was a husband / wife, and that was is kind of lame.
 
-![Alt text](grocery_lists_items.jpg)
+![Alt text](imgs/grocery_lists_items.jpg)
 
 What is a one-to-one database?
 A one-to-one database is a database where each element is linked to one other element and the other elemented is linked back to it. It's semi hard to come up with examples of this, but here are a few: spouse / spouse; artwork / artist; photograph / photographer; photograph / camera;  company / CEO; country / capital; etc.
