@@ -7,9 +7,7 @@ def random_input_array(base, size)
   (1..size).map { |i| base**(1+rand(15)) }
 end
 
-include RSpec
-
-RSpec.describe "super_fizzbuzz" do
+describe "super_fizzbuzz" do
   it "returns 'Fizz' for multiples of 3" do
     expect(super_fizzbuzz(random_input_array(3,100))).to eq ["Fizz"]*100
   end
