@@ -1,26 +1,36 @@
-# FizzBuzz Super Edition
 
-# I have chosen FizzBuzz because I couldn't get it to work in JavaScript, and I'll be damned if I let FizzBuzz
-# defeat me twice.
+# I worked on this challenge by myself.
+# This challenge took me 1 hour.
 
-# buzz_array = [1, 2, 3, 5, 15, 13]
+
+# Pseudocode
+# Iterate over an array and repace specific numbers in the array. Use an if statement so that:
+# if the number is divisible by 3 and 5 write fizzbuzz, if divisible by 3 write fizz, and if divisible 
+# by 5 write buzz.
+
+
+# Initial Solution
 
 def super_fizzbuzz(array)
+	counter = 0
 	array.each do |x|
 		if ((x % 3 == 0) && (x % 5 == 0))
-			puts "FizzBuzz"
+			array[counter] = "FizzBuzz"
 		elsif x % 3 == 0
-			puts "Fizz"
+			array[counter] = "Fizz"
 		elsif x % 5 == 0
-			puts "Buzz"
-		else
-			puts x
+			array[counter] = "Buzz"
 		end
+	counter += 1
 	end
 end
-# super_fizzbuzz(buzz_array)
 
-# Just for fun, I'm going to do fizzbuzz classis as well.
+
+
+
+# Refactored Solution
+
+# I could not think of anything to refactor so I decided to make classic fizzbuzz!
 
 def classic_fizzbuzz
 	numbers = 1..100
@@ -37,7 +47,11 @@ def classic_fizzbuzz
 	end
 end
 
-# classic_fizzbuzz
+# Reflection
+
+# I have chosen FizzBuzz because I couldn't get it to work in JavaScript, and I'll be damned if I let FizzBuzz
+# defeat me twice.
+
 
 # What concepts did you review or learn in this challenge?
   # If statements, logic, each, and using puts instead of print.
