@@ -108,10 +108,6 @@ puts spoon.clean_silverware #=> this should be false
 # DRIVER TESTS GO BELOW THIS LINE
 
 
-
-
-
-
 # Reflection
 
 # What concepts did you review in this challenge?

@@ -1,5 +1,5 @@
 # I worked on this challenge by myself.
-# This challenge took me 2 hours.
+# This challenge took me 6 hours.
 
 # Pseudocode
 # The truth is I have no clue how to calculate this.
@@ -83,7 +83,7 @@ puts is_fibonacci?(8670007398507948658051921)
 # Refactored Solution
 
 # I can't really think of anything to change. I thought this would be a pretty simple challenge, but I'm now
-# like 4-5 hours in and just cracked it.
+# like 6 hours in and just cracked it.
 
 
 # Reflection
