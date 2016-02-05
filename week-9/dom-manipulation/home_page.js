@@ -1,8 +1,6 @@
 // DOM Manipulation Challenge
 
-
 // I worked on this challenge by Linda Ho.
-
 
 // Add your JavaScript calls to this page:
 
@@ -33,6 +31,7 @@ function release_four() {
 }
 
 // Release 5:
+
 function release_five() {
     var elements = document.getElementsByClassName("release-4");
     for (var i=0; i < elements.length; i++) {
@@ -47,15 +46,3 @@ function release_six() {
 	var tmpl = document.getElementById('hidden');
 	document.body.appendChild(tmpl.content.cloneNode(true));
 }
-
-
-
-// What did you learn about the DOM?
-// In terms of what I didn't aready know, I learned how to link a JS file to an HTML file and how to
-// have multiple functions activate on a website without a button. Before, I was writing all JS inside
-// of the HTML file.
-
-// What are some useful methods to use to manipulate the DOM?
-// The most important I would say is knowing when to iterate (eg. when you have multiple classes.)
-// The document... method is good to change elements inside of HTML tags. Using .style, .innerHTML,
-// .className are all useful as well.
